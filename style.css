@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
 }
 
 .wrapper {
@@ -47,14 +51,6 @@ li > a:hover {
   cursor: pointer;
 }
 
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  /* position: relative; */
-  /* display: inline-block; */
-}
-
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -88,5 +84,5 @@ li > a:hover {
 }
 
 .hero-section img {
-    height: 250px;
+    height: 220px;
 }

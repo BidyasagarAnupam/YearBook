@@ -4,13 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Batch 2</title>
+    <title>Batch 2022 | YearBook for MCA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="batches.css">
+
+    <style>
+        .wrapper {
+            background: url(./img/bg_batch_22.png) fixed no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+
 </head>
 
 <body>
-    <h1>Batch 2</h1>
-    <a href="./index.html">Back</a>
+    <div class="wrapper">
+        <nav class="nav-bar">
+            <ul>
+                <div class="logo">
+                    <img src="./img/nitjsr-logo.png" alt="" height="50px">
+                </div>
+                <li><a href="./index.html">Home</a></li>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Batches
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./batch1.html">Batch 2021</a>
+                        <a href="./batch2.html">Batch 2022</a>
+                        <a href="./batch3.html">Batch 2023</a>
+                    </div>
+                </div>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
 
+        <div class="hero-section">
+            <!-- card 1 -->
+            <div class="card">
+                <!-- image -->
+                <!-- I used linkedin profile picture link for image -->
+                <div class="avatar">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQG9uvBgiOhOOg/profile-displayphoto-shrink_400_400/0/1678823190757?e=1700697600&v=beta&t=Et5jOxQXYyfL7utKyA8Js5RC9tteVTPXd8Tk09_jsyI" alt="">
+                </div>
+                <!-- details -->
+                <div class="details">
+                    <div class="name">
+                        <span class="heading">Name:</span>
+                        <span class="content">Bidyasagar Mohapatra</span>
+                    </div>
+                    <div class="year">
+                        <span class="heading">Year:</span>
+                        <span class="content">2022-25</span>
+                    </div>
+                    <figure class="additional">
+                        <blockquote>Arise! Awake! And stop not until the goal is reached.</blockquote>
+                        <figcaption>
+                            &mdash;<cite>Swami Vivekananda</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- social media links -->
+                <div class="connect">
+                    <div class="icnos">
+                        <a href="https://www.instagram.com/bidyasagar_anupam/" target="_blank">
+                            <img src="./img/insta_icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icnos">
+                        <a href="https://www.linkedin.com/in/bidyasagar-mohapatra-b86581203/" target="_blank">
+                            <img src="./img/linkedin_icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icnos">
+                        <a href="https://github.com/BidyasagarAnupam" target="_blank">
+                            <img src="./img/github_icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
 </body>
 
 </html>

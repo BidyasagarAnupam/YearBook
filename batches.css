@@ -1,0 +1,50 @@
+.hero-section {
+  padding: 2rem;
+  height: 90vh;
+  overflow-x: auto;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem 0.5rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.765);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 88%;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content {
+  font-weight: bold;
+}
+
+.connect {
+  display: flex;
+  gap: 5px;
+}
+
+.icnos img {
+  height: 30px;
+}
+blockquote {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.avatar img {
+  max-height: 200px;
+  border-radius: 10px;
+}
