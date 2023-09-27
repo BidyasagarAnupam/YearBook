@@ -36,8 +36,7 @@
 
 <!-- ABOUT THE PROJECT -->
 <h1>About The Project</h1>
-
-[![YearBook][product-screenshot]](https://year-book-two.vercel.app/index.html)
+<h2><a href="https://year-book-two.vercel.app/index.html">YearBook</a></h2>
 
 Welcome to the Year Book project! This delightful digital Year Book is a showcase of our memorable moments and achievements, crafted exclusively using HTML and CSS.
 
