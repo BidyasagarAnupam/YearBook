@@ -17,3 +17,9 @@ window.onclick = function (event) {
         }
     }
 }
+
+const navbarlinks = document.getElementsByClassName('links')[0]
+const toggleButton = document.getElementsByClassName('toggle_button')[0]
+document.getElementsByClassName('toggle_button')[0].addEventListener('click', () => {
+    navbarlinks.classList.toggle('active')
+})
