@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Section | YearBook</title>
-    <link rel="shortcut icon" href="./img/nitjsr-logo.png" type="image/x-icon">
-
+    <title>About NIT Jamshedpur</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aboout Section</h1>
+    <div class="wrapper">
+        <nav class="nav-bar">
+            <ul>
+                <div class="logo">
+                    <img src="./img/nitjsr-logo.png" alt="" height="50px">
+                </div>
+                <li><a href="./index.html">Home</a></li>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Batches
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./batch1.html">Batch 2021</a>
+                        <a href="./batch2.html">Batch 2022</a>
+                        <a href="./batch3.html">Batch 2023</a>
+                    </div>
+                </div>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-section">
+            <div>
+                <h2>About NIT Jamshedpur</h2>
+            </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
