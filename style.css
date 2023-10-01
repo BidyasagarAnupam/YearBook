@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: lighter;
 }
 
@@ -34,13 +34,13 @@
 }
 
 li > a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 li > a:hover {
-    text-decoration: underline;
- }
+  text-decoration: underline;
+}
 /* Dropdown Button */
 .dropbtn {
   all: unset;
@@ -75,14 +75,20 @@ li > a:hover {
   display: block;
 }
 
-.hero-section{
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section img {
-    height: 220px;
+  height: 220px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar > ul {
+    justify-content: space-between;
+  }
 }

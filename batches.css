@@ -48,3 +48,24 @@ blockquote {
   max-height: 200px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 1300px) {
+  .hero-section {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /* gap: 1rem 0.5rem; */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    grid-template-columns: 1fr 1fr;
+    /* gap: 1.2rem; */
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    /* gap: 1rem; */
+  }
+}
