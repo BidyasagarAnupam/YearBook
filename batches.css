@@ -1,7 +1,10 @@
-.hero-section {
+.section{
   padding: 2rem;
   height: 90vh;
   overflow-x: auto;
+}
+
+.hero-section {
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -66,6 +69,52 @@ blockquote {
   width: 100%;
   background-color: white;
   border-radius: 10px;
+}
+
+#result{
+  padding:0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#result .card{
+  width:15rem;
+  height: 30rem;
+  margin: 1rem;
+}
+
+#search{
+  margin:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form input{
+  border:white;
+  font-size:1rem;
+  font-weight: 700;
+  background-color: white;
+  border-radius:20px;
+  padding:0.3rem 0.9rem;
+}
+
+#form button{
+  padding:0.3rem 0.9rem;
+  border: none;
+  border-radius:20px;
+  font-size:1rem;
+  font-weight: 700;
+}
+
+.not-found{
+  background-color: #ccc;
+  border-radius: 5px ;
+  color: black;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 2rem;
 }
 @media (max-width: 1800px) {
   .hero-section {
