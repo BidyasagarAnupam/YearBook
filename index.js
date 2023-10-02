@@ -17,3 +17,12 @@ window.onclick = function (event) {
         }
     }
 }
+
+
+
+
+
+
+
+
+
