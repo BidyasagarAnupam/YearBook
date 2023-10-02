@@ -39,6 +39,7 @@
 .icnos img {
   height: 30px;
 }
+
 blockquote {
   font-style: italic;
   font-weight: bold;
@@ -47,4 +48,87 @@ blockquote {
 .avatar img {
   max-height: 200px;
   border-radius: 10px;
+}
+
+.toggle_button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle_button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+@media (max-width: 1800px) {
+  .hero-section {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .hero-section {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    /* Full-width columns for small screens */
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .toggle_button {
+    display: flex;
+  }
+
+  .wrapper ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-bar li {
+    padding: 20px;
+  }
+
+  .links.active {
+    display: flex;
+  }
 }
