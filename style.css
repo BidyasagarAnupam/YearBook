@@ -2,14 +2,16 @@
 
 * {
   margin: 0;
+  margin-top: -10px;
   padding: 0;
+  /* overflow-y: hidden; */
   box-sizing: border-box;
   list-style: none;
   font-family: 'Rubik', sans-serif;
   font-weight: lighter;
 }
 
-.wrapper {
+/* .wrapper {
   width: 100vw;
   height: 100vh;
   background: url(./img/academic.jpg) fixed no-repeat;
@@ -20,9 +22,52 @@
   background-position: 0% 25% !important;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.62);
   /* height: 100vh; */
+  /* } */ 
+  
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+    /* opacity: 0.; */
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.62);
+    transition: box-shadow 0.5s;
+    background-position: 0% 25% !important;
+    background-size: cover;
+  }
+  
+  /* body{
+  background-position: 0% 25% !important;
+
+} */
+
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(20px);
 }
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.shadowy{
+  
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.62);
+}
+
+
+
+
 .nav-bar {
-  margin: 2rem auto;
+  margin: 4rem auto;
   width: 60%;
   max-width: 1200px;
 }
@@ -85,4 +130,27 @@ li > a:hover {
 
 .hero-section img {
     height: 220px;
+    /* margin: 20px 12px; */
+    margin-bottom: 20px;
+}
+
+
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
