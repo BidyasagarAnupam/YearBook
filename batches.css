@@ -53,6 +53,12 @@ blockquote {
   border-radius: 10px;
 }
 
+.avatar img:hover{
+  transition: all 0.6s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .toggle_button {
   position: absolute;
   top: .75rem;
