@@ -23,7 +23,10 @@
   gap: 1rem;
   border-radius: 10px;
 }
-
+.card:hover{
+  background-color: gray;
+  color:white;
+}
 .details {
   display: flex;
   flex-direction: column;
