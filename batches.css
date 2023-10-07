@@ -10,6 +10,8 @@
   justify-items: center;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem 0.5rem;
+  margin-bottom: 2rem;
+  height: auto;
 }
 
 .card {
@@ -22,6 +24,8 @@
   padding: 1rem;
   gap: 1rem;
   border-radius: 10px;
+  height: 400px;
+  overflow: hidden;
 }
 
 .details {
@@ -187,3 +191,34 @@ blockquote {
     display: flex;
   }
 }
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+footer{
+  background-image: url(./img/bgfooter.jpg);
+  
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size:x-large;
+  position:relative;
+ 
+  
+}
+footer>p{
+  color:#0b0a0a;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#gitlink{
+  color:#0b0a0a;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#gitlink:hover{
+  color:chocolate;
+
+}
+
