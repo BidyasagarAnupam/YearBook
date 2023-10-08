@@ -1,4 +1,4 @@
-.section{
+.section {
   padding: 2rem;
   height: 90vh;
   overflow-x: auto;
@@ -26,6 +26,19 @@
   border-radius: 10px;
   height: 400px;
   overflow: hidden;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.765);
 }
 
 .details {
@@ -57,7 +70,7 @@ blockquote {
   border-radius: 10px;
 }
 
-.avatar img:hover{
+.avatar img:hover {
   transition: all 0.6s;
   transform: scale(1.1);
   cursor: pointer;
@@ -81,55 +94,56 @@ blockquote {
   border-radius: 10px;
 }
 
-#result{
-  padding:0.5rem;
+#result {
+  padding: 0.5rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-#result .card{
-  width:15rem;
+#result .card {
+  width: 15rem;
   height: 30rem;
   margin: 1rem;
 }
 
-#search{
-  margin:2rem;
+#search {
+  margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#form input{
-  border:white;
-  font-size:1rem;
+#form input {
+  border: white;
+  font-size: 1rem;
   font-weight: 700;
   background-color: white;
-  border-radius:20px;
-  padding:0.3rem 0.9rem;
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
 }
 
-#form button{
-  padding:0.3rem 0.9rem;
+#form button {
+  padding: 0.3rem 0.9rem;
   border: none;
-  border-radius:20px;
-  font-size:1rem;
+  border-radius: 20px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
-.not-found{
+.not-found {
   background-color: #ccc;
-  border-radius: 5px ;
+  border-radius: 5px;
   color: black;
   padding: 0.5rem;
   font-weight: 700;
   font-size: 2rem;
 }
+
 @media (max-width: 1800px) {
   .hero-section {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    
+
   }
 
   .card {
@@ -140,17 +154,18 @@ blockquote {
 @media (max-width: 1600px) {
   .hero-section {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    
+
   }
 
   .card {
     width: 100%;
   }
 }
+
 @media (max-width: 1200px) {
   .hero-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    
+
   }
 
   .card {
@@ -193,32 +208,35 @@ blockquote {
 }
 
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
-footer{
+
+footer {
   background-image: url(./img/bgfooter.jpg);
-  
+
   background-position: center;
   background-size: cover;
   text-align: center;
-  font-size:x-large;
-  position:relative;
- 
-  
+  font-size: x-large;
+  position: relative;
+
+
 }
-footer>p{
-  color:#0b0a0a;
+
+footer>p {
+  color: #0b0a0a;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-#gitlink{
-  color:#0b0a0a;
+
+#gitlink {
+  color: #0b0a0a;
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#gitlink:hover{
-  color:chocolate;
+
+#gitlink:hover {
+  color: chocolate;
 
 }
-
