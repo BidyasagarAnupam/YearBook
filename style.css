@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
   font-family: 'Rubik', sans-serif;
   font-weight: lighter;
 }
@@ -23,7 +22,7 @@
 }
 .wrapper2 {
   width: 100vw;
-  height: 100vh;
+  height: 140vh;
   background: url(./img/bgfooter.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -185,4 +184,38 @@ footer>p{
   width: 60%;
   margin: auto;
   margin-top: 4rem;
+}
+main {
+  text-align: left; /* Align the text content to the left */
+  max-width: 800px; /* Example maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding for better readability */
+}
+section {
+  margin-bottom: 20px; /* Add space between sections */
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 80px; /* Adjust as needed to prevent the footer from overlapping */
+}
+
+#page-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Set the height of the footer */
+  text-align: center; /* Optional: Center align the content */
+  padding: 10px; /* Optional: Add padding for better spacing */
+}
+#MCA{
+  margin-bottom: 9px;
+}
+
+ul {
+  list-style-type:disc;
 }
