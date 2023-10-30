@@ -120,7 +120,7 @@ li>a:hover {
   border-radius: 10px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 768px) {
   .toggle_button {
     display: flex;
   }
@@ -149,7 +149,7 @@ li>a:hover {
     display: flex;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .heading {
     text-align: center;
   }
