@@ -10,7 +10,7 @@
 
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 140vh;
   background: url(./img/academic.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -22,8 +22,8 @@
 }
 .wrapper2 {
   width: 100vw;
-  height: 140vh;
-  background: url(./img/bgfooter.jpg) fixed no-repeat;
+  height: 214vh;
+  background: url(./img/academic.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -105,7 +105,7 @@ li>a:hover {
   position: absolute;
   top: .75rem;
   right: 1rem;
-  display: none;
+  
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -129,7 +129,11 @@ li>a:hover {
     width: 100%;
     flex-direction: column;
   }
-
+  .wrapper2 ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
   .nav-bar {
     flex-direction: column;
     align-items: flex-start;
@@ -148,6 +152,11 @@ li>a:hover {
   .heading {
     text-align: center;
   }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 body::-webkit-scrollbar{
   display: none;
